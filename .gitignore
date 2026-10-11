@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Project backups
+backup/
+**/backup/
+*_backup/
+**/*_backup/
+
+# Local app data and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Local runtime data — created by the app and kept on this machine
+water_log.json
+settings.json
+
+# Personal character artwork and animation frames (keep .gitkeep skeleton files)
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.webp
+assets/*.gif
+assets/*/*.png
+assets/*/*.jpg
+assets/*/*.jpeg
+assets/*/*.webp
+assets/*/*.gif
+!assets/.gitkeep
+!assets/*/.gitkeep
