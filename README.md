@@ -1,4 +1,4 @@
-# Aadya Water Buddy — Modular Python Project
+# My Water Buddy — An AI Companion
 
 A macOS desktop water reminder with an animated companion, water-intake dashboard, and a local Ollama-powered chatbot.
 
